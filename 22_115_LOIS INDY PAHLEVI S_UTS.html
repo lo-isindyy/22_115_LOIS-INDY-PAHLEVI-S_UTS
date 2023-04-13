@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link href="style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body style="background-color: #F5F5F5">
+    <!-- header -->
+    <nav class="navbar bg-primary fixed-top">
+      <div class="container-fluid">
+        <div>
+          <span class="navbar-brand mb-0 h1" style="color: white;">PBW </span>
+          <a class="navbar-brand" style="color: white;" href="#">Selamat datang, Lois Indy Pahlevi S</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Praktikum PBW A
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body position-relative">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Daftar Mahasiswa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Informasi Tugas</a>
+              </li>
+            </ul>
+            <div class="content position-relative" style="padding-bottom: 50px">
+              <a class="btn btn-primary d-grid gap-2" href="#" role="button"
+                >Logout</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end header -->
+
+    <!-- content -->
+    <section class="mt-5">
+      <div class="content position-relative" style="padding-top: 50px;">
+        <div class="row">
+          <h1 class="text-center font-size">
+            DAFTAR MAHASISWA
+          </h1>
+          <h1 class="text-center font-size">
+            PRAKTIKUM PEROGRAMAN BERBASIS WEB
+          </h1>
+          <br>
+        </div>
+        <div class="card mx-auto" style="width: 85%; height: 90%;">
+          <div class="card-body" style="padding-left: 40px;">
+            <a href="#" class="btn btn-primary" style="background: #72FF70; border-radius: 12px; border-color: #72FF70;">Tambah Data</a>
+            <a href="#" class="btn btn-primary2" style="background: #FF4343; border-radius: 12px; border-color: #FF4343; color: #F5F5F5;">Cetak Laporan</a>
+            <div class="input-group justify-content-between" style="float: right; width: 260px; padding-right: 19px;">
+              <input type="text" class="form-control" style="background-color: #EFECEC;" placeholder="Cari Berdasarkan NIM" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+              <div class="input-group-text" style="background-color: #98CDFE;" id="btnGroupAddon2">@</div>
+            </div>
+          </div>
+
+          <div class="card-text">
+            <table class="table table-striped" style="width: 97%; text-align: center;">
+              <thead class="table-primary">
+                <tr>
+                  <th scope="col" style="background-color: #98CDFE;">No</th>
+                  <th scope="col" style="background-color: #98CDFE;">NIM</th>
+                  <th scope="col" style="background-color: #98CDFE; ">Nama</th>
+                  <th scope="col" style="background-color: #98CDFE;">Dosen</th>
+                  <th scope="col" style="background-color: #98CDFE;">Status</th>
+                  <th scope="col" style="background-color: #98CDFE;">Ket</th>
+                  <th scope="col" style="background-color: #98CDFE;">Aksi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>200441100052</td>
+                  <td>Affan Maulana Zulkarnain</td>
+                  <td>Sri Herawati</td>
+                  <td>Asprak</td>
+                  <td>Alpha</td>
+                  <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>200441100111</td>
+                  <td>Muhammad Irham Alkarim</td>
+                  <td>Sri Herawati</td>
+                  <td>Asprak</td>
+                  <td>Alpha</td>
+                  <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                    <td>210441100106</td>
+                    <td>Abdul Wahid</td>
+                    <td>Sri Herawati</td>
+                    <td>Asprak</td>
+                    <td>Alpha</td>
+                    <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                      <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                      <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>210441100054</td>
+                  <td>Fanky Abdil Qoyyim</td>
+                  <td>Sri Herawati</td>
+                  <td>Asprak</td>
+                  <td>Alpha</td>
+                  <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>220441100115</td>
+                  <td>Lois Indy Pahlevi. S</td>
+                  <td>Sri Herawati</td>
+                  <td>Praktikan</td>
+                  <td>Hadir</td>
+                  <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>220441100036</td>
+                  <td>Syafira Putri Kamila</td>
+                  <td>Sri Herawati</td>
+                  <td>Praktikan</td>
+                  <td>Hadir</td>
+                  <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                    <td>220441100025</td>
+                    <td>Yuyun Oktalina Arlita</td>
+                    <td>Sri Herawati</td>
+                    <td>Praktikan</td>
+                    <td>Hadir</td>
+                    <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                      <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                      <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>220441100112</td>
+                  <td>Dwi Valentina Febriani</td>
+                  <td>Sri Herawati</td>
+                  <td>Praktikan</td>
+                  <td>Hadir</td>
+                  <td><div class="d-grid gap-2 d-md-block" style="float:right; padding-right: 45px;">
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #87A9FF; background-color: #87A9FF;" type="button">Edit</button>
+                    <button class="btn btn-primary btn-sm" style="width: 100px; height: 30px; border-radius: 12px; border-color: #FF5E5E; background-color: #FF5E5E;" type="button">Hapus</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end content -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

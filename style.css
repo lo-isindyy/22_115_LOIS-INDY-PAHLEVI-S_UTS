@@ -1,0 +1,18 @@
+.btn-primary{
+    width: 170px;
+    height: 40px;
+    padding: 40px;
+    top: 367px;
+}
+
+.btn-primary2{
+    width: 200px;
+    height: 40px; 
+    left: 150px;
+    top: 367px;
+}
+
+.card-text{
+    justify-content: center;
+    padding-left: 40px;
+}
